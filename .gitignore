@@ -1,0 +1,71 @@
+# =========================================
+# Xilinx Vivado & FPGA Design Artifacts
+# =========================================
+*.jou
+*.log
+*.str
+*.mif
+*.coe
+*.bit
+*.mcs
+*.prm
+*.xpr.data*
+.Xil/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+.srcs/sources_1/ip/
+
+# =========================================
+# Simulation & Waveform Outputs
+# =========================================
+waves.vcd
+*.wdb
+*.wcfg
+xsim.dir/
+*.pb
+*.key
+*.vif
+
+# =========================================
+# QtSpim / Assembly Development
+# =========================================
+*.o
+*.obj
+*.out
+*.lst
+
+# =========================================
+# Python / Scripting Utilities (if any)
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# =========================================
+# Operating System & IDE Files
+# =========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Editors & IDEs (VS Code, Sublime, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
